@@ -1,0 +1,97 @@
+body {
+  background-color: #0a0a23;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  opacity: 1;
+  padding: 10px;
+}
+
+.screen {
+  height: 20rem;
+}
+
+#img {
+  width: 100%;
+  height: 100%;
+}
+
+#game {
+    width: 90%;
+  /* max-width: 500px;
+  min-width: 450px; */
+  background-color: #ffffff;
+  color: #ffffff;
+  /* margin: 30px auto; */
+  padding: 10px;
+}
+
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #0a0a23;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  margin-top: 15px;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  font-size: 1.5rem;
+}
+
+.credit{
+    /* background-color: red; */
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+a{
+    color:white;
+}
+p{
+    font-size: 2rem;
+}
+.play{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#button1{
+    width: 48%;
+    height: 75px;
+}
+#button2{
+    width: 48%;
+    height:75px;
+}
+.btn3{
+    width: 100%;
+    height:75px;
+    
+}
